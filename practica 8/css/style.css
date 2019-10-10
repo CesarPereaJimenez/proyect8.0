@@ -1,0 +1,70 @@
+body{
+
+    padding: 0;
+    margin:0;
+    font:15px Arial,Helvetica;
+}
+nav{
+    background-color: beige;
+    color: aqua;
+}
+header{
+    background-color:red;
+    color:wheat;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+#encabezado{
+width:70%;
+margin: auto;
+}
+.areaPrincipal{
+    background-image: url("../img/fondo.jpg");
+    margin: 0;
+    padding-bottom: 0%;
+}
+#datos{
+    height: 450px;
+    width: 1600px;
+    background-color: aqua;
+    
+}
+p{
+    text-align: left;
+}
+header #marca{
+float:left;
+}
+header nav{
+float: right;
+margin-top: 10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+       float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header a{
+    color: #fff;
+    text-decoration: #1293d4;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header a:hover{
+    color:#ccc;
+    font-weight: bold;
+}
+footer{background:red;
+    background-color: black;
+    }
+    .piePagina{
+        height: 100px;
+        width: 200px;
+        background-color: black;  
+    }
+
